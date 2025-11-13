@@ -91,12 +91,7 @@ MySQL 5.7+
 pip
 ```
 
-### 2. Instalar Dependencias
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Configurar Base de Datos
+### 2. Configurar Base de Datos
 
 Editar `datos/conexion.py`:
 ```python
@@ -109,10 +104,10 @@ DB_CONFIG = {
 }
 ```
 
-### 4. Crear Base de Datos
+### 3. Crear Base de Datos
 Ejecutar el script SQL proporcionado en MySQL.
 
-### 5. Ejecutar
+### 4. Ejecutar
 ```bash
 python main.py
 ```
